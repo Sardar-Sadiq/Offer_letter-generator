@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>offer letter portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Offer letter </h1>
+    <form id="offerForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="joiningDate">Joining Date:</label>
+      <input type="date" id="joiningDate" name="joiningDate" required><br><br>
+      <label for="completionDate">Completion Date:</label>
+      <input type="date" id="completionDate" name="completionDate" required><br><br>
+      <label for="domain">Domain:</label>
+      <input type="text" id="domain" name="domain" required><br><br>
+      <button type="submit">Generate Offer Letter</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.16.0/pdf-lib.js"></script>
+
+  <script src="/main.js"></script>
+</body>
+
+</html>
